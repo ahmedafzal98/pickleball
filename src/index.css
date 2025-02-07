@@ -4,6 +4,7 @@
 @import "tailwindcss/utilities";
 /* Replaces @tailwind components and @tailwind utilities */
 @import "tailwindcss";
+
 body {
     margin: 0;
     padding: 0;
