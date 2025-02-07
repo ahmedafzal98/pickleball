@@ -3,7 +3,7 @@
       "env": {
         "NODE_ENV": "production"
       },
-      "rootDirectory": "client",
-      "distDir": "dist"
+      "source": "client",
+      "distDir": "dist" 
     }
   }
