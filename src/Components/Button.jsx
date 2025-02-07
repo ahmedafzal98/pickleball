@@ -3,7 +3,7 @@ import arrowOutward from "../assets/icons/arrow_outward.svg";
 const Button = ({ title, backgroundColor, textColor, isIcon }) => {
   return (
     <div
-      className={`flex ${backgroundColor} justify-center items-center gap-2 text-[${textColor}] w-[230px] h-14 border-1 border-[#B9E018] rounded-3xl cursor-pointer mt-6`}
+      className={`flex ${backgroundColor} justify-center items-center gap-2 text-[${textColor}] w-[170px] xl:w-[230px] h-14 border-1 border-[#B9E018] rounded-3xl cursor-pointer mt-6`}
     >
       <button>{title}</button>
 

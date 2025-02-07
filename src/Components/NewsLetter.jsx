@@ -8,7 +8,7 @@ const NewsLetter = () => {
           Please sign up so you will receive exclusive offers, steal deals and
           discounts <br /> especially for you.
         </span>
-        <div className="flex items-center justify-between w-1/5 h-16 rounded-3xl bg-white p-2">
+        <div className="flex items-center justify-between md:w-3/5 xl:w-1/5 h-16 rounded-3xl bg-white p-2">
           <img src={email} alt="Email" className="h-6 w-6 mr-2" />
 
           <input

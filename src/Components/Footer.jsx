@@ -30,7 +30,7 @@ const resources = [
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gradient-to-tl from-[#b8e01857] to-[#000000b4] bg-no-repeat bg-fixed flex justify-center w-full h-[592px] mt-[7%]">
+      <footer className="bg-gradient-to-tl from-[#b8e01857] to-[#000000b4] bg-no-repeat bg-fixed flex justify-center w-full h-[592px] mt-[7%] overflow-x-hidden">
         <div className="flex flex-col w-full items-center">
           <div className="w-1/2 h-[280px] mt-8 flex">
             <div className=" flex flex-col h-full w-1/2 justify-between text-white">
