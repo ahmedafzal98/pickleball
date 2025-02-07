@@ -3,10 +3,7 @@
       "env": {
         "NODE_ENV": "production"
       },
-      "src": "client", 
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist" 
-      }
+      "rootDirectory": "client",
+      "distDir": "dist"
     }
   }
