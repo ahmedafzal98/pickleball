@@ -1,4 +1,4 @@
-import Product from "../Components/Product";
+import Product from "./Product";
 import React, { useRef, useState } from "react";
 
 import { Virtual, Navigation, Pagination } from "swiper/modules";
