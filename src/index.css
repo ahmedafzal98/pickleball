@@ -24,7 +24,7 @@ body {
 
     overflow-x: hidden;
 }
-/* Swiper Navigation Buttons */
+/* Default styles (applies to all screen sizes) */
 .swiper-button-prev,
 .swiper-button-next {
   width: 118px !important;  /* Set width */
@@ -48,4 +48,74 @@ body {
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   background-color: #A0C814 !important; /* Slightly darker green */
+}
+
+/* 📌 Small Screens (≥ 640px - sm) */
+@media (max-width: 640px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 12px !important;
+  }
+}
+
+/* 📌 Medium Screens (≥ 768px - md) */
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 14px !important;
+  }
+}
+
+/* 📌 Large Screens (≥ 1024px - lg) */
+@media (max-width: 1024px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 16px !important;
+  }
+}
+
+/* 📌 Extra Large Screens (≥ 1280px - xl) */
+@media (max-width: 1280px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 18px !important;
+  }
+}
+
+/* 📌 2XL Screens (≥ 1536px - 2xl) */
+@media (max-width: 1536px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 19px !important;
+  }
 }
